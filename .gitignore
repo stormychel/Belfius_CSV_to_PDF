@@ -1,0 +1,65 @@
+# Ignore .idea folder (JetBrains IDEs like PyCharm)
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pycharm & JetBrains specific
+.idea/
+*.iml
+
+# Ignore environment variables & secrets
+.env
+*.env
+
+# Ignore compiled C extensions
+*.pyd
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore Python stack traces
+*.stackdump
