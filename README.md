@@ -1,4 +1,4 @@
-# CSV to Belfius PDF Converter
+# Belfius CSV to  PDF Converter
 
 This script automatically converts CSV bank statements into a Belfius-style PDF format. It processes all CSV files in the current directory and generates matching PDFs with proper transaction formatting.
 
