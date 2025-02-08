@@ -18,7 +18,8 @@ It processes all CSV files in the current directory and generates matching PDFs 
 **Clone the repository:**
 
 ``` bash
-git clone https://github.com/yourusername/csv-to-belfius-pdf.gitcd csv-to-belfius-pdf
+git clone https://github.com/stormychel/Belfius_CSV_to_PDF.git
+cd Belfius_CSV_to_PDF
 ```
 
 **Install dependencies:**
