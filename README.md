@@ -1,4 +1,4 @@
-# Belfius CSV to  PDF Converter
+# Belfius CSV to PDF Converter
 
 This script automatically converts CSV bank statements into a Belfius-style PDF format. 
 It processes all CSV files in the current directory and generates matching PDFs with proper transaction formatting.
@@ -15,13 +15,25 @@ It processes all CSV files in the current directory and generates matching PDFs 
 
 ## Installation
 
-Clone the repository:git clone https://github.com/yourusername/csv-to-belfius-pdf.gitcd csv-to-belfius-pdf
+**Clone the repository:**
 
-Install dependencies:pip install -r requirements.txt(Only reportlab is required for PDF generation.)
+``` bash
+git clone https://github.com/yourusername/csv-to-belfius-pdf.gitcd csv-to-belfius-pdf
+```
+
+**Install dependencies:**
+
+``` bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-Run the script in any directory containing CSV files:python3 csv_to_pdf_formatter.py
+**Run the script in any directory containing CSV files:**
+
+``` bash
+python3 csv_to_pdf_formatter.py
+```
 
 It will automatically generate PDFs for all .csv files in the folder.
 
